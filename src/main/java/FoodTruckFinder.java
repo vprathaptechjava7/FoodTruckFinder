@@ -5,7 +5,6 @@ import java.net.URL;
 
 public class FoodTruckFinder {
 	public static void main(String[] args) {
-
 		   //The Socrata API
 			String apiUrl = "http://data.sfgov.org/resource/bbb8-hzi6.json";
 
