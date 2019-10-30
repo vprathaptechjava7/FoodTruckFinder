@@ -8,6 +8,7 @@
 
 
 #Suggestions to convert Food Truck Finder into fully plugged  web application 
+
 *Divided application into 3 different layer
 
   1.) Business and Data layer :
@@ -26,9 +27,9 @@
        
   2.) User Interface layer 
   
-       ***a.)Creates a interaction bridge between backend service and User interface 
+       a.)Creates a interaction bridge between backend service and User interface 
        
-       ***b.)Acts as a wrapper for combing data from different micro services.
+       b.)Acts as a wrapper for combing data from different micro services.
        
   3.) UI (with Augular or React )
   
@@ -39,3 +40,6 @@
         c.)View with managing the UI with CSS parser for designing
         
  *Add logger for tracking errors in different micro services (increases probability of fixing bugs and defects)
+ *Integrate application with Spluck for real-time logs and with faster speed.
+ *Create a Docker file for allowing a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package
+*Deploy application using kubernetes ,openshift or Azur in cloud platform for more scalabilty and faster working
