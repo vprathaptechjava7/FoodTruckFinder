@@ -40,6 +40,10 @@
         c.)View with managing the UI with CSS parser for designing
         
  *Add logger for tracking errors in different micro services (increases probability of fixing bugs and defects)
+ 
  *Integrate application with Spluck for real-time logs and with faster speed.
+ 
  *Create a Docker file for allowing a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package
+ 
 *Deploy application using kubernetes ,openshift or Azur in cloud platform for more scalabilty and faster working
+
